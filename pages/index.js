@@ -4,6 +4,7 @@ import Header from "../components/Header"
 import LotteryEntrance from "../components/LotteryEntrance"
 import { useMoralis } from "react-moralis"
 import styled from "styled-components"
+import Footer from "../components/Footer"
 
 const supportedChains = ["31337", "11155111"]
 
@@ -40,6 +41,7 @@ export default function Home() {
                     </Connect>
                 )}
             </div>
+            <Footer />
         </>
     )
 }
